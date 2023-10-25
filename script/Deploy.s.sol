@@ -6,7 +6,14 @@ import {Common} from "create3-deploy/script/Common.s.sol";
 import {ScriptTools} from "create3-deploy/script/ScriptTools.sol";
 
 contract Deploy is Common {
-    function setUp() public {}
+
+    function name() public pure override returns (string memory) {
+        return "Deploy";
+    }
+
+    function setUp() public override {
+        super.setUp();
+    }
 
     function run() public {
         vm.broadcast();

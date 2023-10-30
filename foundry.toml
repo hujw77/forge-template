@@ -9,6 +9,7 @@ auto_detect_remappings = false
 optimizer_runs = 999999
 evm_version = "london"
 bytecode_hash = "ipfs"
+extra_output_files = ["metadata"]
 
 [rpc_endpoints]
 arbitrum-goerli = "https://goerli-rollup.arbitrum.io/rpc"

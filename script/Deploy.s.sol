@@ -7,7 +7,6 @@ import {ScriptTools} from "create3-deploy/script/ScriptTools.sol";
 import {Counter} from "../src/Counter.sol";
 
 contract Deploy is Common {
-
     address immutable ADDR = 0x00C4B0e8c35a42EfA8ECb67b2155a9A573A632E7;
     bytes32 immutable SALT = 0x3830f8dca3fab67fa3cf818f45f5dd870f59f600635be259e1ba3081237ef146;
 

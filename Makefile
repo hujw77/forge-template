@@ -1,5 +1,5 @@
-.PHONY: all fmt clean test salt
-.PHONY: tools foundry sync create3
+.PHONY: all fmt clean test
+.PHONY: tools foundry sync
 
 -include .env
 
